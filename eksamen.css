@@ -1,0 +1,326 @@
+#main {
+	background-color: black;
+	text-align: center;
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 2em;
+
+}
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.5em;
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+	font-size: 0.8em;
+	background-color: black;
+	position: static;
+	top: 0px;
+}
+li {
+  display:inline;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #FF1251;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+	font-family: 'Rokkitt', serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #EED1D9;
+}
+#overskrift {
+	font-size: 2em;
+	text-align: center;
+
+}
+/* potensielle fargekode " #FF1251 "*/
+#hovedtekst {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: justify;
+	text-justify: auto;
+	width: 40%;
+	position: relative;
+		left: 5%;
+	word-wrap: break-word;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+#link1 { 
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: left;
+}
+#bilder{
+	border-radius: 10%;
+}
+#video {
+	width: 800px;
+	height: 600px;
+}
+
+#footer {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 0.5em;
+	text-align: center;
+	padding: 0.6em;
+	background-color: black;
+	width: 99%%;
+}
+#footer1 {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 0.5em;
+	text-align: center;
+	padding: 0.6em;
+	background-color: black;
+	width: 99%;
+	position: fixed;
+	bottom: 0%;
+	}
+
+/*SLIDESHOW TEST */ 
+/* Slideshow container */
+.hovedslideshow-container {
+  width: 40%;
+  position: relative;
+	left: 450px;
+	bottom: 550px;
+  margin: auto;
+  padding-top:50px;
+  padding-bottom:50px;
+  max-height: 400px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;	
+}
+#slide1 {display:block}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -22px;
+  padding: 20px;
+  color: #FF1251;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding-bottom: 1em;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #EED1D9;
+}
+
+/* Caption text */
+.text {
+	color: #FF1251;
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1em;
+	font-family: 'Rokkitt', serif;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#header{
+	border-radius: 10%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#ringtekst {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: justify;
+	text-justify: auto;
+	width: 40%;
+	position: relative;
+		left: 50%;
+	word-wrap: break-word;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+/*SLIDESHOW TEST */ 
+/* Slideshow container */
+.ringslideshow-container {
+  width: 40%;
+  position: relative;
+  margin: auto;
+  left: -500px;
+  bottom: 480px;
+  padding-top:50px;
+  padding-bottom:50px;
+  max-height: 400px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;	
+}
+#slide1 {display:block}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -22px;
+  padding: 20px;
+  color: #FF1251;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding-bottom: 1em;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #EED1D9;
+}
+
+/* Caption text */
+.text {
+	color: #FF1251;
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1em;
+	font-family: 'Rokkitt', serif;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#klesbilde1{
+	border-radius: 10%;
+	position: relative;
+		left: 400px;
+		bottom: 520px;
+}
+#klesbilde2{
+	border-radius: 10%;
+	position: relative;
+		left: 400px;
+		bottom: 520px;
+}
+#klesbilde3{
+	border-radius: 10%;
+	position: relative;
+		left: 400px;
+		bottom: 520px;
+}
+
+#klærtekst {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: justify;
+	text-justify: auto;
+	width: 40%;
+	position: relative;
+		left: 5%;
+	word-wrap: break-word;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+#underoverskriftklær {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: justify;
+	text-justify: auto;
+	width: 40%;
+	position: relative;
+		left: 5%;
+	word-wrap: break-word;
+
+}
+.slideshow-containermaleri {
+  width: 40%;
+  position: relative;
+  margin: auto;
+  padding-top:50px;
+  padding-bottom:50px;
+  max-height: 400px;
+  
+}
+#eksamensundertekst {
+	color: #FF1251;
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+	text-align: justify;
+	text-justify: auto;
+	position: relative;
+	text-align: center;
+	word-wrap: break-word;
+
+}
+#video{
+	position: relative;
+	left: 20%;
+}
